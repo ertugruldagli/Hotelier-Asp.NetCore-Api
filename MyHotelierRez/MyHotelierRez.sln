@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{30784374-0B1A-4EDA-9D4A-0326E82152D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{C8265BCD-476D-4B2A-8329-5D72ADC3D694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebApi", "ApiConsume\HotelProject.WebApi\HotelProject.WebApi.csproj", "{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BAD6887-C42E-41CE-A26C-EC2D80B87BAF} = {2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59EE12E1-B152-4114-AEDB-B4683B2F297A}
