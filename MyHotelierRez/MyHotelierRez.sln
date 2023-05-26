@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DataAccessLaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.BusinessLayer", "ApiConsume\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj", "{298A3041-C3BB-44AD-9787-C80D01CF87C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DtoLayer", "ApiConsume\HotelProject.DtoLayer\HotelProject.DtoLayer.csproj", "{DC13D586-B314-4EDB-95C0-F920D7AE8F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebUI", "FrontEnd\HotelProject.WebUI\HotelProject.WebUI.csproj", "{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{298A3041-C3BB-44AD-9787-C80D01CF87C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{298A3041-C3BB-44AD-9787-C80D01CF87C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{298A3041-C3BB-44AD-9787-C80D01CF87C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC13D586-B314-4EDB-95C0-F920D7AE8F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC13D586-B314-4EDB-95C0-F920D7AE8F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC13D586-B314-4EDB-95C0-F920D7AE8F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC13D586-B314-4EDB-95C0-F920D7AE8F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +60,8 @@ Global
 		{AD2A9A10-5215-419F-A41F-F7E60AE854B2} = {2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}
 		{2CD5B118-8752-482B-B349-DA0C672F58E1} = {2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}
 		{298A3041-C3BB-44AD-9787-C80D01CF87C1} = {2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}
+		{DC13D586-B314-4EDB-95C0-F920D7AE8F64} = {2DCC7D62-11FD-4EDF-A4B1-8AA54739DEBC}
+		{00460FE0-6CD0-42E4-9D8A-C5E67F4F0F2E} = {30784374-0B1A-4EDA-9D4A-0326E82152D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59EE12E1-B152-4114-AEDB-B4683B2F297A}
